@@ -1,5 +1,5 @@
 <template>
-  <Tutorial />
+  <TheGenerator />
 </template>
 
 <script>
