@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'gabut-tng',
+    title: 'GABUT TNG',
     htmlAttrs: {
       lang: 'en',
     },

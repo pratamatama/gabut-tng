@@ -1,5 +1,12 @@
 <template>
   <main class="h-screen flex flex-col items-center justify-center">
+    <img
+      class="-mt-10 mb-10"
+      src="/logo.png"
+      alt="GABUT ! Logo"
+      width="100"
+    />
+
     <h1 class="text-3xl sm:text-5xl lg:text-7xl xl:text-8xl 2xl:text-9xl text-center font-bold select-none mb-10">
       {{ formattedNumber }}
     </h1>
