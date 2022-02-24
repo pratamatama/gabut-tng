@@ -1,5 +1,8 @@
 <template>
-  <TheGenerator />
+  <div>
+    <DarkmodeToggle />
+    <TheGenerator />
+  </div>
 </template>
 
 <script>

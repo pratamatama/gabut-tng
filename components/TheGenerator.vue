@@ -1,5 +1,5 @@
 <template>
-  <main class="h-screen flex flex-col items-center justify-center">
+  <main class="h-screen flex flex-col items-center justify-center dark:bg-gray-800 dark:text-white">
     <img
       class="-mt-10 mb-10"
       src="/logo.png"
