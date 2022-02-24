@@ -110,7 +110,10 @@ export default {
       let numbers = []
 
       for (let i = 1; i <= this.max_length; i++) {
-        const generated = this.generateBetween(1, this.max_length ? 20 : 35)
+        const generated = this.generateBetween(
+          1,
+          i >= this.max_length ? 20 : 35
+        )
 
         if (numbers.includes(generated)) {
           return this.generate()
